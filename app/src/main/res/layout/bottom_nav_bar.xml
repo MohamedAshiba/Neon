@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/bottom_nav_one"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ليه وأزاى؟"
+            android:background="@android:color/white"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/bottom_nav_two"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="نورها"
+            android:background="@android:color/white"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/bottom_nav_three"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="النشرة"
+            android:background="@android:color/white"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/bottom_nav_four"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="هجص بلدى"
+            android:background="@android:color/white"
+            android:textColor="@android:color/black" />
+
+    </LinearLayout>
